@@ -6,7 +6,7 @@ export 'models/introductory_price.dart';
 export 'models/offering_wrapper.dart';
 export 'models/offerings_wrapper.dart';
 export 'models/package_wrapper.dart';
-export 'models/payment_discount.dart';
+export 'models/promotional_offer.dart';
 export 'models/store_product_discount.dart';
 export 'models/store_product_wrapper.dart';
 export 'models/store_transaction.dart';
