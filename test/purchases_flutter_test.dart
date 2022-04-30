@@ -561,4 +561,11 @@ void main() {
       ],
     );
   });
+
+  test('showManageSubscriptions calls successfully', () async {
+    await Purchases.showManageSubscriptions();
+
+    expect(log,
+        <Matcher>[isMethodCall('showManageSubscriptions', arguments: null)]);
+  });
 }
